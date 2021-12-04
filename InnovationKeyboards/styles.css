@@ -1,10 +1,15 @@
 :root {
     --AccentColor: #000080;
     --DarkGrey: #383838;
+    --NavSize:
 }
 body {
   background-color: #f7fbfc;
   margin: 0;
+  height: 100%;
+}
+html {
+  height: 100%;
 }
 
 /*regular stylings*/
@@ -16,9 +21,9 @@ p {
 }
 ul {
   font-family: "Microsoft PhagsPa", serif;
-  font-size: 20px;
   padding-left: 20%;
   padding-right: 18%;	
+  font-size: 0.21in;
 }
 h1 {
   font-family: "Courier", sans-serif;
@@ -90,8 +95,16 @@ td {
   padding: 14px 16px;
   text-decoration: none;
 }
+.active {
+  background-color: var(--AccentColor);
+  color: white;
+  float: left;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
 li a:hover {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 /*Dropdowns*/
@@ -227,9 +240,6 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
       /* Fading animation */
 .fade {
@@ -311,8 +321,8 @@ img {vertical-align: middle;}
   font-size: 23px;
 }
 #Parallax1{
-  background-image: url('https://innovationkeyboards.w3spaces.com/Pictures/Keayboard1.jpg?bypass-cache=1637104119');
-  min-height: 500px;
+  background-image: url('https://i.ibb.co/hc56Ljy/black-base-blue-LED-keyboard.jpg');
+  min-height: 80%;
   width: 100%;
   
   
@@ -323,8 +333,8 @@ img {vertical-align: middle;}
   background-size: cover;
 }
 #Parallax2{
-  background-image: url('https://innovationkeyboards.w3spaces.com/Pictures/Keyboard14.jpg?bypass-cache=1637111098');
-  min-height: 400px;
+  background-image: url('https://i.ibb.co/zZKddx8/Keyboard2.jpg');
+  min-height: 60%;
   width: 100%;
       
       
@@ -335,8 +345,8 @@ img {vertical-align: middle;}
   background-size: cover;
 }
 #Parallax3{
-  background-image: url('https://innovationkeyboards.w3spaces.com/Pictures/Keayboard5.jpg?bypass-cache=1637111234');
-  min-height: 400px;
+  background-image: url('https://i.ibb.co/tYSSHBs/Keybard3.jpg');
+  min-height: 60%;
   width: 100%;
       
     /* Create the parallax scrolling effect */
@@ -352,8 +362,8 @@ img {vertical-align: middle;}
     color: black;
     font-size: 60px; 
     font-weight: bold;
-    margin: 0px;
-    padding: 0px;
+    margin: none;
+    padding: 0.8%;
     text-align: center;
     position: absolute;
     left: 50%;
