@@ -16,44 +16,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="https://i.ibb.co/ChdLJvd/thumbnail-Final-Logo.png">
+    <script type="text/javascript" src="scripts.js"></script>
     <title>Paper Laptops | Innovation Keyboards</title>
 
 
 
     <!--Navigation Bar-->
-    <ul class="NavigationBar">
-        <li class="NavLi"><a class="NavA" href="index.html">Home</a></li>
-        <li class="NavLi"><a class="NavA" href="Blog.html">Blog</a></li>
-        <li class="NavLi">
-            <div class="dropdown">
-                <a class="NavA">Contact Us</a>
-                <div class="dropdown-content">
-                    <a href="mailto:s-olaksberg@lwsd.org" target="_blank">s-olaksberg@lwsd.org</a>
-                </div>
-            </div>
-        </li>
-        <li class="active"><a class="NavA" href="PaperLaptops.html">Paper Laptops</a></li>
-        <li class="NavLi"><a class="NavA" href="https://forms.office.com/r/ftqMp5XB9s" target="_blank">Get Your Keyboard</a></li>
-        <!--<li class="Title">Innovation Keyboards</li>-->
-    </ul>
+    <div id="mainMenu"></div>
 
 
 </head>
 
-<body>
+<body onload="renderMenu('mainMenu', 'laptops')">
     <!--Intro Paragraphs-->
 
-    <div id="Parallax1">
+    <!--<div id="Parallax1">
         <div class="ClearText">Paper Laptops</div>
         </div>
-        <div>
+        <div>-->
             <p id="Intro">
                 Paper laptops have always been the best way to take notes, learn, and have fun without an electronic
                 computer, the
-                only problem was finding authentic quality made ones for cheaper than 5$, at creativity paper laptops,
+                only problem was finding authentic quality made ones for cheaper than $5. Here, at InnovationKeybaords,
                 we create
                 artisanal, fully handmade, paper laptops to improve your school and work experience. Our owner is an
-                experience
+                experienced
                 paper laptop artisan and has over 4 years of experience.
                 <br><br>
                 Our paper laptops are no-nonsense, while they are made of paper, that doesn't mean we put on a keyboard
@@ -103,22 +90,27 @@
                 <tr>
                     <td>Standard</td>
                     <td>All our most important features</td>
-                    <td>$2</td>
+                    <td>$1</td>
                 </tr>
                 <tr>
-                    <td>Premium:</td>
+                    <td>Premium</td>
                     <td>Waterproof outer cover, and has more features </td>
                     <td>$3</td>
                 </tr>
                 <tr>
-                    <td>Dulux</td>
+                    <td>Deluxe</td>
                     <td>Higher quality paper, much more exquisite and fancy</td>
-                    <td>$5</td>
+                    <td>$3</td>
                 </tr>
                 <tr>
                     <td>Ultimate</td>
                     <td>Dulux and premium combined</td>
                     <td>$5</td>
+                </tr>
+                <tr>
+                    <td>Upgrade Combo</td>
+                    <td>A waterproof pouch for your laptop, and a replacement wallpaper of your choice</td>
+                    <td>$1</td>
                 </tr>
 
             </tbody>

@@ -16,31 +16,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="https://i.ibb.co/ChdLJvd/thumbnail-Final-Logo.png">
+    <script type="text/javascript" src="scripts.js"></script>
+
     <title>Innovation Keyboards</title>
 
-
-
     <!--Navigation Bar-->
-    <ul class="NavigationBar">
-        <li class="active"><a class="NavA" href="index.html">Home</a></li>
-        <li class="NavLi"><a class="NavA" href="Blog.html">Blog</a></li>
-        <li class="NavLi">
-            <div class="dropdown">
-                <a class="NavA">Contact Us</a>
-                <div class="dropdown-content">
-                    <a href="mailto:s-olaksberg@lwsd.org" target="_blank">s-olaksberg@lwsd.org</a>
-                </div>
-            </div>
-        </li>
-        <li class="NavLi"><a class="NavA" href="PaperLaptops.html">Paper Laptops</a></li>
-        <li class="NavLi"><a class="NavA" href="https://forms.office.com/r/ftqMp5XB9s" target="_blank">Get Your Keyboard</a></li>
-        <!--<li class="Title">Innovation Keyboards</li>-->
-    </ul>
-
+    <div id="mainMenu"></div>
 
 </head>
 
-<body>
+<body onload="renderMenu('mainMenu', 'home')">
     <!--Intro Paragraphs-->
 
     <div id="Parallax1">
@@ -182,8 +167,7 @@
         <li><span class="fancy-words">Films</span> are small plastic foam squares that are wedged between the top and
             bottom of a switch to reduce wobble and alter sound in the keys.</li>
     </ul>
-
-
+    
 </body>
 
 </html>
