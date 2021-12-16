@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-<!--Here's a note from the person who spent over 40 hours working on this:
-
-	I will say this over and over. Don't insult my table. I can write you an essay on the horrors of trying to memorize
-	every fricken tag along with the order it needs to be put in. I swear, those things never end.
-	
-	Btw, thanks for actually being one of those people who look at the Inspect. You're probobly only doing it to make fun of my website 
-	and make it say stupid stuff, but thanks anyways. As I may have mentioned before, it took me a while to get all this done.
-
-	-->
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://i.ibb.co/ChdLJvd/thumbnail-Final-Logo.png">
+    <link rel="icon" href="https://innvationkeyboards.w3spaces.com/Pictures/Final_Logo.png?bypass-cache=53388230">
     <script type="text/javascript" src="scripts.js"></script>
 
     <title>Innovation Keyboards</title>
 
-    <!--Navigation Bar-->
     <div id="mainMenu"></div>
 
 </head>
 
-<body onload="renderMenu('mainMenu', 'home')">
+<body onload="renderMenu('mainMenu', 'home'); renderServiceList('PricingTable'); renderMaterialsList('MaterialsList')">
     <!--Intro Paragraphs-->
 
     <div id="Parallax1">
@@ -46,128 +35,21 @@
             Hello, we are Innovation Keyboards, a small team of keyboard enthusiasts that want to build keyboards for
             other people, with any budget, we focus on sound, feel and aesthetics to get you a keyboard you will love.
         </p>
-        <!-- <p id="Intro"> Insert several advertisement parapgraphs here</p>-->
     </div>
     <div id="Parallax2"></div>
 
     </p>
     <h3 id="Prices">Keyboard Services and Prices</h3>
-    <!--<p class="fancy-words">WARNING! CAUTION!<br>
-        Do not insult my table. Seriosuly, it took me an hour to make it <br>
-        <br>
-        <br>
-		Oh, and here's something funny for you. Oliver was being annoying, well, more annoying than usual so I posted this:-->
-    <!--Bob is following you.
-        <br>
-        Oliver's response: Ur Mom is following you.
-        <br>
-		After that he spammed me with screaming emails to take it down, so it's in the comments. . . for now.
-        <br>-->
 
-    <!--Pricing Table-->
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Service</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Basic lubing</td>
-                <td>Lubing switches</td>
-                <td>$1 for 10 switches + price of lube and film</td>
-            </tr>
-            <tr>
-                <td>Basic service</td>
-                <td>Buy the parts and assemble a keyboard customized for you, includes basic upgrade; </td>
-                <td>$10-$15</td>
-            </tr>
-            <tr>
-                <td>Premium service</td>
-                <td>Buy the parts and assemble a keyboard customized for you, but includes premium upgrade;</td>
-                <td>$15-$25</td>
-            </tr>
-            <tr>
-                <td>Basic Upgrade</td>
-                <td>Take an existing keyboard you have, and upgrade it with lube, foam, etc;</td>
-                <td>$5</td>
-            </tr>
-            <tr>
-                <td>Premium Upgrade</td>
-                <td>Take an existing keyboard you have, and upgrade it, includes lubing switches, desouldering, testing,
-                    etc;</td>
-                <td>$10-$15</td>
-            </tr>
-            <tr>
-                <td>Cleaning service</td>
-                <td>Basic cleaning/maintenace</td>
-                <td>$5 per cleaning <b>OR</b> monthly subscription cleaning $10 for 4 months</td>
-            </tr>
-        </tbody>
-        <!--<table>
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Note</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-        <tr>
-                    <td>Oliver's stupid paper laptop</td>
-                    <td>You'd have to have a negative maount of braincells to pay 10 cents for that crap</td>
-                    <td>$10</td>
-        		</tr>
-        <tr>
-                    <td>Spam emails from oliver</td>
-                    <td>self explanatory </td>
-                    <td>Good news! It's free! You don't even need to ask for it to happen</td>
-                </tr>
-		<tr>
-                    <td>constant advertising</td>
-                    <td>You know exactly what that is</td>
-                    <td>I've heard people ask to pay for it to stop</td>
-                </tr>
-		<tr>
-                    <td>Authenticity Lectures</td>
-                    <td>I'm sure you've heard all of them, all those lectures on 'authentic' music.</td>
-                    <td>Mark my words: never. ever. ever. bring that up.</td>
-                </tr>
-		<tr>
-            </tbody>-->
-        <p id="TableNote"><br>*Please note that these prices are <b>only</b> for the build; materials are payed for
-            seperately.<br></p>
-    </table>
+    <div id="PricingTable"></div>
+
     <div id="Parallax3"></div>
 
     <p>
         We buy the materials:</p>
 
-    <!--Materials List-->
+    <div id="MaterialsList"></div>
 
-    <ul>
-        <li><span class="fancy-words">The base</span> is the bottom of the keybard, and is what holds all the keys in
-            place and determines the sizing of the keyboard. They can come in a variety of different colors, sizes, and
-            materials.</li>
-        <li><span class="fancy-words">The PCB</span> is the electronics inside of the keyboard.</li>
-        <li><span class="fancy-words">The plate</span> is the part which mounts the switches and plays a big role in the
-            pitch of the board, and how stiff or soft it is.<br> </li>
-        <li><span class="fancy-words">The switches</span> determine the spring feel such as the bump, smoothness, and
-            weight of the springs.</li>
-        <li><span class="fancy-words">The stabilizers</span> go on all keys bigger than two units wide. The keeyp the
-            bigger keys, such as the space bar, or the shift key from wobbling.</li>
-        <li><span class="fancy-words">The keycaps</span> are the phyisical keys you press on top of the switches. They
-            are responsible for the color and aesthetics as well as altering the sound of the keybaord.</li>
-        <li><span class="fancy-words">Lube</span> is used to makes switches smoother, and reduce rattle in the
-            stabelizers. A regular keyboard typically uses 2-3 different kinds of lube.</li>
-        <li><span class="fancy-words">Foam</span> is used to dampen the sound of the keyboard, and reduces hollow sound
-            from keypress.</li>
-        <li><span class="fancy-words">Films</span> are small plastic foam squares that are wedged between the top and
-            bottom of a switch to reduce wobble and alter sound in the keys.</li>
-    </ul>
-    
 </body>
 
 </html>
