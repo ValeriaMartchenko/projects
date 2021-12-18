@@ -22,7 +22,7 @@ var NavigationBar = {
         {
             "id": "order",
             "link": "Form.html",
-            "text": "Get Your Keyboard"
+            "text": "Get Your Laptop"
         }
     ]
 };
